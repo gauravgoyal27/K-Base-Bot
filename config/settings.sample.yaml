@@ -1,0 +1,13 @@
+gemini:
+  api_key: "YOUR_API_KEY_HERE"
+  embedding_model: "models/embedding-001"
+  llm_model: "models/gemini-1.5-flash-latest"
+
+data:
+  pdf_path: "data/pdf"
+  excel_path: "data/excelfile.xlsx"
+  vector_store_path: "vector_store/faiss_index"
+
+ingestion:
+  parsing_strategy: "hi_res"
+  process_images: true

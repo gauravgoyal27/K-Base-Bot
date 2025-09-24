@@ -1,0 +1,40 @@
+google-generativeai
+python-dotenv
+pandas
+openpyxl
+pypdf
+langchain
+langchain-google-genai
+faiss-cpu
+streamlit
+
+
+unstructured
+
+
+
+# --- Document Ingestion and Advanced Parsing ---
+# Using [all-docs] pulls in all necessary dependencies for complex PDFs,
+# including tables and layout detection models (like detectron2).
+unstructured[all-docs]
+
+
+
+
+
+
+
+langchain-community
+unstructured[pdf]
+unstructured_inference
+pdfminer.six
+pi-heif
+pillow
+pyyaml
+
+streamlit
+thefuzz
+python-Levenshtein 
+
+google.generativeai
+nest_asyncio
